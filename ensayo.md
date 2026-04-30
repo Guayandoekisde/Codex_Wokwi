@@ -1,14 +1,5 @@
 # Proyecto: Integración de Codex, MicroPython y Raspberry Pi Pico W en un entorno de aprendizaje práctico
 
-## Introducción
-Cuando empecé este proyecto, mi objetivo era unir tres elementos que, juntos, hacen que aprender programación embebida sea mucho más accesible: **MicroPython**, **Raspberry Pi Pico W** y **Codex**.
-
-MicroPython es una implementación ligera de Python diseñada para microcontroladores. En la práctica, permite programar hardware con una sintaxis conocida, simple y rápida de probar, lo que reduce la barrera de entrada para estudiantes que no vienen del mundo de la electrónica.
-
-La Raspberry Pi Pico W es una placa de desarrollo pequeña y económica basada en el microcontrolador RP2040, con la ventaja de incluir conectividad inalámbrica. Esto la convierte en una opción muy atractiva para proyectos de IoT, automatización y prototipado educativo.
-
-Por otro lado, Codex funciona como un asistente de programación basado en inteligencia artificial. Su aporte principal en este contexto es acelerar el desarrollo, sugerir soluciones y servir como apoyo cuando aparecen dudas técnicas durante la implementación.
-
 ## ¿Qué es Codex?
 Codex es un modelo de IA orientado a tareas de programación: entiende instrucciones en lenguaje natural y puede generar, modificar o explicar código en distintos lenguajes. En mi experiencia, su valor no está solo en “escribir por mí”, sino en actuar como una herramienta de acompañamiento técnico constante.
 
@@ -31,10 +22,9 @@ Segundo, cuando el código ya existe, puede detectar errores típicos: variables
 
 Tercero, permite mejorar calidad: modularizar funciones, renombrar variables para mayor claridad, y simplificar bloques repetitivos sin perder comportamiento.
 
-También me resultó útil en depuración y aprendizaje. Al describirle síntomas (por ejemplo, lecturas inestables o bloqueos en ciertos ciclos), Codex sugiere hipótesis técnicas y pasos de verificación. Ese proceso no reemplaza la prueba física en la placa, pero sí guía mejor el diagnóstico y ayuda a entender fundamentos de sistemas embebidos como tiempos de ejecución, restricciones de memoria y manejo de periféricos.
 
 ## Experiencia personal
-Un punto clave de mi experiencia fue comparar prompts en español vs inglés. En ambos idiomas obtuve respuestas útiles, pero noté diferencias consistentes.
+Un punto clave de mi experiencia fue comparar prompts en español vs inglés. En ambos idiomas se obtienen respuestas útiles, pero noté diferencias consistentes.
 
 Con prompts en español, Codex respondió bien en explicaciones generales y contexto educativo. Sin embargo, en algunos casos técnicos muy específicos, las respuestas fueron menos precisas o más ambiguas en nombres de funciones, supuestos de entorno o estilo de implementación.
 
